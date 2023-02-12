@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="sylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+    
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="https://i.pinimg.com/originals/ce/09/3c/ce093c7214ad357bb665cfd2f66a8b6b.png" height="45" width="100"></a>
+
+        <div class="search-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg_MQnlTpEvUgN1d3XriCE9fMblxTJktdO4g&usqp=CAU" height="30">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="navbar-centre">
+        <ul>
+            <li><a href="#" class="acive-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/2048px-Home-icon.svg.png" height="25" width="25"><span>Home</span></a></li>
+            <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6u7SqCEAlw1Kpp7mjMRr-yPFmSJGtEkGgIA&usqp=CAU" height="25" width="25"><span>My Network</span></a></li>
+            <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZO8RJIW7Ua5tuORmXRi_mhi6BV6kh-6M0ag&usqp=CAU" height="25" width="25"><span>Jobs</span></a></li>
+            <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl_jAp4cuy-zQcy9GB1zi4CjX5xAbZzHaFPQ&usqp=CAU" height="25" width="25"><span>Messages</span></a></li>
+            <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhxOCMMODh9L9iJ2NfEORL0bR5lEuxCjujlQ&usqp=CAU" height="25" width="25"><span>Notifications</span></a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+            <img src="https://assets1.cbsnewsstatic.com/hub/i/r/2010/12/03/79ed9c0e-a644-11e2-a3f0-029118418759/thumbnail/620x465/c729e5324bec4c98433636cd8028873e/365073.jpg" height="40" class="nav-profile-img" onclick="toggleMenu()">
+        </div>  
+    </div>
+<!-------------------------------------------------------profile drop-down-menu --------------------------------------------------->
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="https://assets1.cbsnewsstatic.com/hub/i/r/2010/12/03/79ed9c0e-a644-11e2-a3f0-029118418759/thumbnail/620x465/c729e5324bec4c98433636cd8028873e/365073.jpg">
+            <div>
+                <h3>Srikanth Reddy</h3>
+                <a href="profile.html">See Your Profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="https://thumbs.dreamstime.com/b/feedback-concept-sketched-white-86207697.jpg" height="35" width="35">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="https://www.shutterstock.com/image-vector/settings-icon-isolated-vector-illustration-260nw-1919371559.jpg" height="35" width="35">
+            <p>Settingss & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="https://image.shutterstock.com/image-vector/customer-service-icon-user-headphone-260nw-519942484.jpg" height="35" width="35">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="https://t3.ftcdn.net/jpg/04/75/01/52/360_F_475015268_cf7Guksqy5X1OIG7bAN5Y6h3hwGM6QEI.jpg" height="35" width="35">
+            <p>Display & Accessability</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/96/82/logout-icon-vector-21679682.jpg" height="35" width="35">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
+
+
+
+</nav>
+
+<!-------------------------------------------------------navbar closed --------------------------------------------------->
+
+<div class="container">
+    <!--------------------------------------------------Left sidebar--------------------------------------------------->
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijvExZM0y8XZcgRJgBOH2uABVoxsUoocMwA&usqp=CAU" height="350"width="100%">
+            <div class="sidebar-profile-info">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ2dS8FDBQzXr6bsXT5dRe2pFLGWV54nfcHQ&usqp=CAU">
+                <h1>Srikanth Reddy</h1>
+                <h3>Web Developer</h3>
+                <ul>
+                    <li>Your Profile Views<span>15</span></li>
+                    <li>Your Post Views<span>25</span></li>
+                    <li>Your Connections<span>30</span></li>
+                </ul>
+            </div>
+            <div class="sidebar-profile-link">
+               <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWBeseMHryPS7ZCv9pizALPTtIyJwfaU2_0Q&usqp=CAU" width="30" height="25">My Items</a>
+               <a href="#"><img src="https://media.istockphoto.com/id/1292563328/vector/try-it-free-banner-speech-bubble-label-ribbon-template-vector-stock-illustration.jpg?s=612x612&w=0&k=20&c=eZxTFzA_aKhTpdOYQxukJJrZSghUXvQRZ3DbqVv1cmU=" width="30" height="25">Try Premium</a>
+            </div>
+        </div>
+    
+          <div class="sidebar-activity" id="sidebarActivity">
+            <h3>RECENT</h3>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgr1q1hfmk7vMXT70LD-xOkrsqpiPeV3wyg&usqp=CAU" width="20" height="20">Web Development</a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgr1q1hfmk7vMXT70LD-xOkrsqpiPeV3wyg&usqp=CAU" width="20" height="20">User Interfaca</a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgr1q1hfmk7vMXT70LD-xOkrsqpiPeV3wyg&usqp=CAU" width="20" height="20">Online Learning</a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgr1q1hfmk7vMXT70LD-xOkrsqpiPeV3wyg&usqp=CAU" width="20" height="20">Learn Online</a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgr1q1hfmk7vMXT70LD-xOkrsqpiPeV3wyg&usqp=CAU" width="20" height="20">Code Better</a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgr1q1hfmk7vMXT70LD-xOkrsqpiPeV3wyg&usqp=CAU" width="20" height="20">Group Learning</a>
+            <h3>GROUPS</h3>
+            <a href="#"><img src="https://www.shutterstock.com/image-vector/user-group-icon-logo-260nw-796864096.jpg" width="20" height="20">Web Developer Group</a>
+            <a href="#"><img src="https://www.shutterstock.com/image-vector/user-group-icon-logo-260nw-796864096.jpg" width="20" height="20">HTML & CSS Learners</a>
+            <a href="#"><img src="https://www.shutterstock.com/image-vector/user-group-icon-logo-260nw-796864096.jpg" width="20" height="20">JavaScript Gropu</a>
+            <a href="#"><img src="https://www.shutterstock.com/image-vector/user-group-icon-logo-260nw-796864096.jpg" width="20" height="20">Learn Coding</a>
+            <h3>HAHTAG</h3>
+            <a href="#"><img src="https://www.pngall.com/wp-content/uploads/8/Blue-Hashtag.png" width="20" height="20">webdevelopment</a>
+            <a href="#"><img src="https://www.pngall.com/wp-content/uploads/8/Blue-Hashtag.png" width="20" height="20">userinterface</a>
+            <a href="#"><img src="https://www.pngall.com/wp-content/uploads/8/Blue-Hashtag.png" width="20" height="20">onlinelearning</a>
+            <div class="discover-more-link">
+                <a href="#">Discover more</a>
+            </div>
+          </div>
+          <p id="showmorelink" onclick="toggleActivity()">Show More <b>+</b></p>
+</div>
+ <!------------------------------------------------Main content----------------------------------------------------->
+            <div class="main-content">
+                <div class="create-post">
+                  <div class="create-post-input">
+                      <img src="https://th.bing.com/th/id/OIP.LnsTb-SCejX8MhQY7w72lQAAAA?pid=ImgDet&w=462&h=688&rs=1">
+                         <textarea   rows="2" placeholder="write a post"></textarea>
+                    </div>
+                    <div class="create-post-links">
+                        <li><img src="https://static.vecteezy.com/system/resources/thumbnails/006/998/431/small/photo-camera-icons-photo-camera-icon-design-illustration-photo-camera-simple-sign-photo-camera-image-vector.jpg" width="35" height="35">Photo</li>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/17/17656.png"width="30" height="20">Video</li>
+                        <li><img src="https://image.shutterstock.com/image-vector/calendar-checkmark-vector-icon-260nw-707670694.jpg"width="40" height="35">Event</li>
+                        <li>Post</li>
+                    </div>
+                </div>
+                <div class="sort-by">
+                    <hr>
+                    <p>Sort by: <span>top<img src="https://image.shutterstock.com/image-vector/arrow-down-vector-icon-this-260nw-305611421.jpg"width="35" height="15"></span></p>
+                </div>
+                <div class="post">
+                    <div class="post-author">
+                     <img src="https://www.youngisthan.in/wp-content/uploads/2017/02/tom-jerry.jpg" width="60" height="40">
+                        <div> 
+                         <h1>Srikanth Reddy</h1>
+                         <small>Electrical Engineer ! Web Developer</small>
+                         <small>2 Hours ago</small>
+                        </div>
+                    </div>
+                 </div>
+                 <p>The Success of every website depends on search engine optimisation and digital marketing strategy.
+                 if you are on first page of all major search engines then you are ahead among your competitors</p>
+                 <img src="https://stiffentechnologies.com/wp-content/uploads/2021/11/Web-Development.jpg" width="100%">
+
+                 <div class="post-stats">
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Facebook_Like_button.svg/2048px-Facebook_Like_button.svg.png" width="20" height="20">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/529px-Love_Heart_SVG.svg.png" width="20" height="20">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1f3gXe49JApu55Eg7nIor0OhjfQnkXBI2x160G-Efqt_Ptz66tmA7SFXJ8KG2PnidqPQ&usqp=CAU"width="20" height="20">
+                        <span class="liked-users">Pranith Bharath and 25 other</span>
+                    </div>
+                     <div>
+                        <span>10 comments &middot; 10 shares</span>
+                     </div>
+                 </div>
+                 <div class="post-activity">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijvExZM0y8XZcgRJgBOH2uABVoxsUoocMwA&usqp=CAU" class="post-activity-user-icon">
+                        <img src="https://image.shutterstock.com/image-vector/arrow-down-vector-icon-this-260nw-305611421.jpg"width="35" height="15" class="post-aactivity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Facebook_Like_button.svg/2048px-Facebook_Like_button.svg.png" width="20" height="20">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQVly6dHmnhm07Iul4VQNzrRCqsfT--B5Yg&usqp=CAU" width="20" height="20">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://i.pinimg.com/736x/8e/e9/89/8ee989250f90578d44d8888286aaa2c0.jpg"width="20" height="20">
+                        <span>Share</span>
+                    </div>
+                 </div>
+                 <div class="post">
+                    <div class="post-author">
+                     <img src="https://www.youngisthan.in/wp-content/uploads/2017/02/tom-jerry.jpg" width="60" height="40">
+                        <div> 
+                         <h1>Srikar Reddy</h1>
+                         <small>Web Developer</small>
+                         <small>4 Hours ago</small>
+                        </div>
+                    </div>
+                 </div>
+                 <p>The Success of every website depends on search engine optimisation and digital marketing strategy.
+                 if you are on first page of all major search engines then you are ahead among your competitors</p>
+                 <img src="https://www.shutterstock.com/image-photo/web-development-coding-programming-internet-260nw-1141706672.jpg" width="100%">
+
+                 <div class="post-stats">
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Facebook_Like_button.svg/2048px-Facebook_Like_button.svg.png" width="20" height="20">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/529px-Love_Heart_SVG.svg.png" width="20" height="20">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1f3gXe49JApu55Eg7nIor0OhjfQnkXBI2x160G-Efqt_Ptz66tmA7SFXJ8KG2PnidqPQ&usqp=CAU"width="20" height="20">
+                        <span class="liked-users">Pranith Bharath and 25 other</span>
+                    </div>
+                     <div>
+                        <span>10 comments &middot; 10 shares</span>
+                     </div>
+                 </div>
+                 <div class="post-activity">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijvExZM0y8XZcgRJgBOH2uABVoxsUoocMwA&usqp=CAU" class="post-activity-user-icon">
+                        <img src="https://image.shutterstock.com/image-vector/arrow-down-vector-icon-this-260nw-305611421.jpg"width="35" height="15" class="post-aactivity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Facebook_Like_button.svg/2048px-Facebook_Like_button.svg.png" width="20" height="20">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQVly6dHmnhm07Iul4VQNzrRCqsfT--B5Yg&usqp=CAU" width="20" height="20">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://i.pinimg.com/736x/8e/e9/89/8ee989250f90578d44d8888286aaa2c0.jpg"width="20" height="20">
+                        <span>Share</span>
+                    </div>
+                 </div>
+                 <div class="post">
+                    <div class="post-author">
+                     <img src="https://www.youngisthan.in/wp-content/uploads/2017/02/tom-jerry.jpg" width="60" height="40">
+                        <div> 
+                         <h1>Nikhil Reddy</h1>
+                         <small>FullStack Developer</small>
+                         <small>1 Hour ago</small>
+                        </div>
+                    </div>
+                 </div>
+                 <p>The Success of every website depends on search engine optimisation and digital marketing strategy.
+                 if you are on first page of all major search engines then you are ahead among your competitors</p>
+                 <img src="https://ares.decipherzone.com/blog-manager/uploads/banner_webp_bea99db8-7dba-41e7-941c-de4b61cc1650.webp" width="100%">
+
+                 <div class="post-stats">
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Facebook_Like_button.svg/2048px-Facebook_Like_button.svg.png" width="20" height="20">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/529px-Love_Heart_SVG.svg.png" width="20" height="20">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1f3gXe49JApu55Eg7nIor0OhjfQnkXBI2x160G-Efqt_Ptz66tmA7SFXJ8KG2PnidqPQ&usqp=CAU"width="20" height="20">
+                        <span class="liked-users">Pranith Bharath and 25 other</span>
+                    </div>
+                     <div>
+                        <span>10 comments &middot; 10 shares</span>
+                     </div>
+                 </div>
+                 <div class="post-activity">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijvExZM0y8XZcgRJgBOH2uABVoxsUoocMwA&usqp=CAU" class="post-activity-user-icon">
+                        <img src="https://image.shutterstock.com/image-vector/arrow-down-vector-icon-this-260nw-305611421.jpg"width="35" height="15" class="post-aactivity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Facebook_Like_button.svg/2048px-Facebook_Like_button.svg.png" width="20" height="20">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQVly6dHmnhm07Iul4VQNzrRCqsfT--B5Yg&usqp=CAU" width="20" height="20">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="https://i.pinimg.com/736x/8e/e9/89/8ee989250f90578d44d8888286aaa2c0.jpg"width="20" height="20">
+                        <span>Share</span>
+                    </div>
+                 </div>
+            </div>
+            
+<!--------------------------------------------------Right sidebar--------------------------------------------------->   
+<div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/005/439/438/small/exclamation-marks-icon-design-element-logo-element-illustration-exclamation-points-symbol-icon-free-vector.jpg" height="20"class="info-icon">
+            <h3>Trending News</h3>
+            <a href="#">High Demad for Developers</a>
+            <span>1Day ago &middot; 10,934 readers</span>
+
+            <a href="#">Careers Growing Horizontally Too</a>
+            <span>12h ago &middot; 1,934 readers</span>
+
+            <a href="#">Less work visa for US, more for UK </a>
+            <span>10h ago &middot; 1,534 readers</span>
+
+            <a href="#">More hiring = higher confidence?</a>
+            <span>10h ago &middot; 1,134 readers</span>
+            
+            <a href="#">Gautam Adani is World's third richest</a>
+            <span>5h ago &middot; 1,251 readers</span>
+
+            <a href="#" class="read-more-link">Read More</a>
+        </div> 
+     <div class="sidebar-ad">
+        <small>Ad &middot; &middot; &middot;</small>
+        <p>Master the 5 principles of Web Development</p>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijvExZM0y8XZcgRJgBOH2uABVoxsUoocMwA&usqp=CAU">
+            <img src="https://www.exchange4media.com/news-photo/103383-oneplus.jpg">
+        </div>
+        <b>Brand and Demand In Oneplus</b>
+        <a href="#" class="ad-link">Learn More</a>
+     </div>
+     
+     <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Centre</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get The App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/87/42/linkedin-logo-icon-social-media-symbol-business-vector-21628742.jpg" width="70" height="70">
+            <p>Linkedin &#169; 2022. All rights reserved</p>
+        </div>
+     </div>
+     </div>
+</div>
+
+ 
+    
+      
+
+<script>
+    let profilemenu = document.getElementById(profileMenu);
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+</script>
+
+<script>
+
+
+let sidebarActivity = document.getElementById("sidebarActivity");
+let morelink = document.getElementById("showmorelink");
+
+function toggleActivity(){
+    sidebarActivity.classList.toggle("open-activity");
+
+    if(sidebarActivity.classList.contains("open-activity")){
+        morelink.innerHTML = "Show less <b>-</b>";
+    }
+    else{
+        morelink.innerHTML = "Show more <b>+</b>";
+    }
+}
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
